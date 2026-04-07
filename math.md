@@ -1,6 +1,6 @@
 
 
-飞书笔记：https://my.feishu.cn/mindnotes/Ag8dbUw9CmdnY4na9B4cUiqHnhe?from=from_copylink
+飞书笔记：[点击此处](https://my.feishu.cn/mindnotes/Ag8dbUw9CmdnY4na9B4cUiqHnhe?from=from_copylink)
 
 ##### 等价无穷小
 
