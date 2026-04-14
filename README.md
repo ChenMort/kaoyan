@@ -3,7 +3,7 @@
 
 你是谁呀
 
-<img src="jyf_pic.jpg" alt="jyf_pic" style="zoom:25%;" />
+<img src="pic/jyf_pic.jpg" alt="jyf_pic" style="zoom:25%;" />
 
 ------
 

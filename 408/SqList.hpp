@@ -2,6 +2,10 @@
 
 #include <iostream>
 
+/**
+ * @brief 线性表类
+ * 20260414懒得写
+ */
 template<typename ElemType>     // 数据元素类型
 class SqList {
 private:

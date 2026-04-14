@@ -38,7 +38,9 @@ $\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \dots + (-1)^n \frac{x^{2n}}{(2n
 
 
 
-$(1+x)^\alpha = 1 + \alpha x + \frac{\alpha(\alpha-1)}{2!}x^2 + \dots + \frac{\alpha(\alpha-1)\dots(\alpha-n+1)}{n!}x^n + o(x^n)$	$\frac{1}{1+x} = 1 - x + x^2 - x^3 + \dots + (-1)^n x^n + o(x^n)$
+$(1+x)^\alpha = 1 + \alpha x + \frac{\alpha(\alpha-1)}{2!}x^2 + \dots + \frac{\alpha(\alpha-1)\dots(\alpha-n+1)}{n!}x^n + o(x^n)$
+
+$\frac{1}{1+x} = 1 - x + x^2 - x^3 + \dots + (-1)^n x^n + o(x^n)$	$\frac{1}{1+x^2}$
 
 $\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \dots + (-1)^{n-1} \frac{x^n}{n} + o(x^n)$
 
@@ -47,6 +49,10 @@ $\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \dots + (-1)^{n-1} \frac{x^n}{n}
 $\arctan x = x - \frac{x^3}{3} + \frac{x^5}{5} - \dots + (-1)^n \frac{x^{2n+1}}{2n+1} + o(x^{2n+1})$
 
 $\arcsin x = x + \frac{1}{2} \cdot \frac{x^3}{3} + \frac{1 \cdot 3}{2 \cdot 4} \cdot \frac{x^5}{5} + \dots + o(x^5)$
+
+
+
+$\tan x = x + \frac{1}{3}x^3 + \frac{2}{15}x^5 + \frac{17}{315}x^7 + \frac{62}{2835}x^9 + o(x^9)$
 
 
 
@@ -64,3 +70,16 @@ $(a^x)'=a^xlna$
 
 $(arctanx)'=\frac{1}{1+x^2}$
 
+
+
+##### 基本不等式
+
+
+
+##### 数列
+
+等比数列求和 	$S_n=\frac{a_1(1-q^n)}{1-q}$
+
+平方项求和	$\sum_{k=1}^n k^2=\frac{n(n+1)(2n+1)}{6}$
+
+$\{(1+\frac{1}{n})^n\}$

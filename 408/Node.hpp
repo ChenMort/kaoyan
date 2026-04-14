@@ -2,6 +2,10 @@
 
 #include<iostream>
 
+/**
+ * @brief 单链表节点类 
+ * 20260414节点后插入
+ */
 template<typename ElemType>     // 数据元素类型
 class Node {           //单链表
 public:
