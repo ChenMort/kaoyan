@@ -6,13 +6,11 @@
 /**
  * @brief 对称矩阵类 (Symmetric Matrix)
  * 采用下三角压缩存储空间，空间复杂度 O(n^2 / 2)
- * 20260414基本实现索引存取，索引赋值
+ * 20260427删除了成员变量阶数dimension，如果需要请在使用的时候声明，精简类型不再浪费相关空间
  */
 template<typename ElemType>
 class SymmetricMatrix{
 private:
-    //对称矩阵阶数
-    size_t dimension_;
     //存储矩阵的数组
     std::vector<ElemType> data;
 
@@ -24,7 +22,7 @@ private:
     }
 
 public:
-    SymmetricMatrix(size_t n):dimension_(n),data(n*(n+1)/2){}
+    SymmetricMatrix(size_t n):data(n*(n+1)/2){}
 
 
     // --- 实现 [i][j] 的关键：代理类 ，意味着第一次索引返回的是此类，使用auto避免出错---
@@ -38,10 +36,7 @@ public:
         }
 
         RowProxy& operator=(std::vector<ElemType>& rowData){
-            if (rowData.size()!=parent.dimension_)
-            throw std::invalid_argument("Vector size mismatch");
-
-            for (size_t j = 0; j < parent.dimension_; ++j) {
+            for (size_t j = 0; j < rowData.size(); ++j) {
             (*this)[j] = rowData[j]; 
             }
             return *this;

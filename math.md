@@ -56,23 +56,49 @@ $\tan x = x + \frac{1}{3}x^3 + \frac{2}{15}x^5 + \frac{17}{315}x^7 + \frac{62}{2
 
 
 
+##### 极限的定义
+
+|      |      |      |      |      |
+| :--: | :--: | ---- | ---- | ---- |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+
+
+
 ##### 重要极限与基本极限
 
 $\lim_{x \to 0} \frac{\sin x}{x} = 1$
 
 $\lim_{x\to\infty}(1+\frac{1}{x})^x=e$	$\lim_{x\to0^+}(1+x)^\frac{1}{x}$
 
+#### 基础知识
+
+##### 变换
+
+$(n^k+a)^k=n^k(1+\frac{a}{n^k})k$
+
 
 
 ##### 导数
 
-$(a^x)'=a^xlna$
+$\Delta y=f(x_0+\Delta x-f(x_0))$	$\lim_{\Delta x \to 0}\frac{\Delta  y}{\Delta x}$ 存在
+
+##### 基本求导公式
+
+幂	$(x^\alpha)'=\alpha x^{\alpha-1}$
+
+指	$(a^x)'=a^x\ln a$	$(e^x)'=e^x$
+
+对	$(\log_a x)'=\frac{1}{x\ln a}$	$(\ln |x|)'=\frac{1}{x}$
+
+三角	$(\sin x)'=\cos x$	$(cos x)'=-\sin x$	$(\arcsin x)'=\frac{1}{\sqrt{1-x^2}}$	$(\arccos x)'=-\frac{1}{\sqrt{1-x^2}}$	$(\tan x)'=\sec^{2}x$	$(\cot x)'=-\csc^{2}x$	$(\arctan x)'=\frac{1}{1+x^2}$	
+
+$(uv)'=u'v+uv'$
+
+
 
 $(arctanx)'=\frac{1}{1+x^2}$
-
-
-
-##### 基本不等式
 
 
 
@@ -82,4 +108,28 @@ $(arctanx)'=\frac{1}{1+x^2}$
 
 平方项求和	$\sum_{k=1}^n k^2=\frac{n(n+1)(2n+1)}{6}$
 
-$\{(1+\frac{1}{n})^n\}$
+重要数列	$\{(1+\frac{1}{n})^n\}$
+
+
+
+##### 不等式
+
+绝对值不等式	$||a| - |b|| \leq |a \pm b| \leq |a| + |b|$
+
+绝对值不等式n个实数情形	$|a_1\pm a_2\pm...\pm a_n|\leq|a_1|+|a_2|+...|a_n|$
+
+基本不等式	$\sqrt{ab}\leq\frac{a+b}{2}\leq\sqrt{\frac{a^2+b^2}{2}}$	$\sqrt{abc}\leq\frac{a+b+c}{3}\leq\sqrt{\frac{a^2+b^2+c^2}{3}}$
+
+$\frac{1}{1+x}<ln(1+\frac{1}{x})<\frac{1}{x}$	$\frac{x}{1+x}<ln(1+x)<x$
+
+1
+
+##### 压缩映射原理
+
+`dhjsdhjsdhj`
+
+
+
+```
+
+```
